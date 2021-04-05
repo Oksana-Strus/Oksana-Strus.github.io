@@ -1,0 +1,11 @@
+@mixin flexbox($jc:center, $ai:center, $d:row) {
+    display: flex;
+    justify-content: $jc;
+    align-items: $ai;
+    flex-direction: $d;
+}
+
+@mixin box-modal($w, $h:100%) {
+    width: $w;
+    height: $h;
+}
